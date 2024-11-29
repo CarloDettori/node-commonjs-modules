@@ -1,0 +1,13 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "description": "Ciao Ragazzi,",
+  "main": "people.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node name.js",
+    "dev": "name.js --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
