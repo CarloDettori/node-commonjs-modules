@@ -4,7 +4,7 @@ const hobbiesImp = require("./hobbies");
 
 
 function funGuys() {
-    let fullNameKey = `${namesImp.fullName().firstName.value} &{namesImp.fullName().lastName.value}`;
+    let fullNameKey = `${namesImp.fullName().firstName} ${namesImp.fullName().lastName}`;
     let hobbiesKey = hobbiesImp.hobbies.join(" ");
     return { fullNameKey, hobbiesKey }
 };
