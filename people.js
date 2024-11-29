@@ -1,10 +1,11 @@
 "use strict"
-const names = require("./name");
-const hobbies = require("./hobbies");
+const namesImp = require("./name");
+const hobbiesImp = require("./hobbies");
+
 
 function funGuys() {
-    fullNameKey = fullName.firstName.value + " " + fullName.lastName.value
-    hobbiesKey = hobbies.join(" ")
+    let fullNameKey = `${namesImp.fullName().firstName.value} &{namesImp.fullName().lastName.value}`;
+    let hobbiesKey = hobbiesImp.hobbies.join(" ");
     return { fullNameKey, hobbiesKey }
 };
 

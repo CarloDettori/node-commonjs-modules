@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node people.js",
-    "dev": "name.js --watch"
+    "dev": "people.js --watch"
   },
   "author": "",
   "license": "ISC"
