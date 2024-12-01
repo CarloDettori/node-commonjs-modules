@@ -5,9 +5,9 @@ const hobbies = require("./hobbies.js");
 //let fullNameKey = fullName("carlo", "dettori")
 //console.log(fullNameKey)
 
-function funGuys() {
-    let fullNameObj = fullName("carlo", "dettori");
-    let hobbiesArr = hobbies("fishing", "hiking", "snorkeling");
+function funGuy() {
+    let fullNameObj = fullName("Carlo", "Dettori");
+    let hobbiesArr = hobbies("painting", "hiking", "gaming");
 
     return {
         fullName: fullNameObj,
@@ -15,5 +15,5 @@ function funGuys() {
     };
 }
 
-console.log(funGuys());
+console.log(funGuy());
 
