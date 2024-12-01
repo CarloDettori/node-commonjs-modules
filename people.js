@@ -1,13 +1,19 @@
 "use strict"
-const namesImp = require("./name");
-const hobbiesImp = require("./hobbies");
+const fullName = require("./name.js");
+const hobbies = require("./hobbies.js");
 
+//let fullNameKey = fullName("carlo", "dettori")
+//console.log(fullNameKey)
 
 function funGuys() {
-    let fullNameKey = `${namesImp.fullName().firstName} ${namesImp.fullName().lastName}`;
-    let hobbiesKey = hobbiesImp.hobbies.join(" ");
-    return { fullNameKey, hobbiesKey }
-};
+    let fullNameObj = fullName("carlo", "dettori");
+    let hobbiesArr = hobbies("fishing", "hiking", "snorkeling");
 
-console.log(funGuys);
+    return {
+        fullName: fullNameObj,
+        hobbies: hobbiesArr
+    };
+}
+
+console.log(funGuys());
 
