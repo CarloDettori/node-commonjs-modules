@@ -1,12 +1,12 @@
 {
   "name": "commonjs-modules",
   "version": "1.0.0",
-  "description": "Ciao Ragazzi,",
+  "description": "node express",
   "main": "people.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node people.js",
-    "dev": "node people.js --watch"
+    "dev": "node --watch people.js"
   },
   "author": "carlo",
   "license": "ISC"
